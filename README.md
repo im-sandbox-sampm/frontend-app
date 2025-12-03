@@ -2,6 +2,7 @@
 
 Demo repository for **GHAS Campaigns + Copilot Autofix** video script.
 
+
 ## ⚠️ Warning
 
 This repository contains **intentionally vulnerable code** with Cross-Site Scripting (XSS) vulnerabilities for demonstration purposes.
@@ -40,3 +41,4 @@ The code should trigger multiple XSS alerts:
 - `displayWelcomeMessage()` - URL parameter injection
 
 All alerts should have Copilot Autofix suggestions available (typically replacing `innerHTML` with `textContent`).
+
